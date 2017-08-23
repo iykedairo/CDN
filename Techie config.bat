@@ -6,7 +6,7 @@ xcopy C:\Web\WEBFILES\config %LOCALDIR%\.git\config /G /Y
 cmdkey /delete:git:https//github.com
 git init
 git config --system --unset credential.helper
-git config credential.helper 'store file=C:\WEB\WEBFiles\IykeDairo\Plain\gits'
+git config credential.helper 'store --file=C:\WEB\WEBFiles\IykeDairo\Plain\gits'
 git config --local user.name PrizeTechie
 git config --local  user.password iykesMan22
 git config --local user.email prizetechie@gmail.com
